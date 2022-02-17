@@ -12,17 +12,17 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "REPLACE_ME"
+    organization = "syedkashanali"
 
     workspaces {
-      name = "gh-actions-demo"
+      name = "Terraform-learning-aws-github"
     }
   }
 }
 
 
 provider "aws" {
-  region = "us-west-2"
+  region = "eu-west-1"
 }
 
 
